@@ -67,7 +67,45 @@ html {
   font-size: 1.8rem;
   font-family: "Bungee Shade", cursive;
 
-  padding: 24px;
+  padding: 16px;
+  cursor: pointer;
+
+  background: unset;
+  border: unset;
+  outline: unset;
+}
+
+.add {
+  padding: 16px;
+}
+
+.add-form {
+  display: flex;
+  align-items: center;
+}
+
+.add-input {
+  background: unset;
+  border: unset;
+  padding: 0 64px;
+
+  flex: 1;
+
+  border-bottom: 1px solid var(--main-red-color);
+  outline: unset;
+
+  font-family: "Redressed", cursive;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.add-btn {
+  font-size: 1.8rem;
+  font-family: "Bungee Shade", cursive;
+
+  padding: 16px;
+  padding-right: unset;
+  cursor: pointer;
 
   background: unset;
   border: unset;
