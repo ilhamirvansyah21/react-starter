@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-red-color: #e06262;
+}
+
+.main-red-color {
+  color: var(--main-red-color);
+}
+
 html {
   font-size: 12px;
 }
@@ -26,7 +34,7 @@ html {
 
 .container {
   width: 600px;
-  height: 600px;
+  height: 800px;
   background-color: #f2eecb;
   border-radius: 4px;
 
@@ -36,4 +44,32 @@ html {
 .frame {
   border: 1px solid #484848;
   height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+}
+
+.header-title {
+  flex: 1;
+  text-align: center;
+
+  font-size: 3.6rem;
+  font-family: "Redressed", cursive;
+  text-transform: uppercase;
+}
+
+.header-btn {
+  font-size: 1.8rem;
+  font-family: "Bungee Shade", cursive;
+
+  padding: 24px;
+
+  background: unset;
+  border: unset;
+  outline: unset;
 }
